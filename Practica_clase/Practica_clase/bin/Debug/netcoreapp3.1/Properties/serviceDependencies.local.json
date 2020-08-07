@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "type": "mssql.local",
+      "connectionId": "DefaultConnection"
+    },
+    "appInsights1": {
+      "type": "appInsights.sdk",
+      "connectionId": null
+    },
+    "mssql2": {
+      "type": "mssql.local",
+      "connectionId": "PrincipalContext"
+    },
+    "secrets1": {
+      "type": "secrets.user"
+    }
+  }
+}
